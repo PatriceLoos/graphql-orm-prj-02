@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Get Users should return array with one registered user: Filled users list 1`] = `
+Object {
+  "data": Object {
+    "users": Array [
+      Object {
+        "address": "934 38 st w, Wolf city, DF, 09080",
+        "description": "user",
+        "dob": "2021-05-07",
+        "email": "Johnwalker@email.com",
+        "id": 1,
+        "imageUrl": "http://image.com",
+        "name": "John Walker",
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`Get Users should return empty array if no users are registered: Empty users list 1`] = `
+Object {
+  "data": Object {
+    "users": Array [],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;

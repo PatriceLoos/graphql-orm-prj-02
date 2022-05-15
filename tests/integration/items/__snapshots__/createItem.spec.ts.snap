@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create Items should register a new item in the database: New item 1`] = `
+Object {
+  "data": Object {
+    "createItem": Object {
+      "address": "2020 ouille st, St-Louis, MS, 020102",
+      "brand": "Fischer",
+      "description": "whip",
+      "dod": "08/29/2010",
+      "dop": "12/12/2001",
+      "genderUsage": "n/a",
+      "id": 1,
+      "identifier": "8787878",
+      "imageUrl": "www.url.gov",
+      "make": "Aerospace",
+      "model": "brown suede",
+      "name": "cravache",
+      "ownerEmail": "d@zone.com",
+      "size": "unisize",
+      "type": "",
+    },
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Get Items should return array with one registered item: Filled items list 1`] = `
+Object {
+  "data": Object {
+    "items": Array [
+      Object {
+        "address": "2020 ouille st, St-Louis, MS, 020102",
+        "brand": "Fischer",
+        "description": "whip",
+        "dod": "2010-08-29",
+        "dop": "2001-12-12",
+        "genderUsage": "n/a",
+        "id": 1,
+        "identifier": "8787878",
+        "imageUrl": "www.url.gov",
+        "make": "Aerospace",
+        "model": "brown suede",
+        "name": "cravache",
+        "ownerEmail": "d@zone.com",
+        "size": "unisize",
+        "type": "",
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`Get Items should return empty array if no items are registered: Empty items list 1`] = `
+Object {
+  "data": Object {
+    "items": Array [],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
