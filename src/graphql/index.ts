@@ -1,6 +1,8 @@
 import 'reflect-metadata';
 import path from 'path';
 import { ApolloServer } from 'apollo-server-express';
+// import { ApolloServer } from 'apollo-server-lambda';
+
 import { BuildSchemaOptions, buildSchema } from 'type-graphql';
 import { Container } from 'typedi';
 

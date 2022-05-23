@@ -21,3 +21,6 @@ const start = async (port: number): Promise<void> => {
 };
 
 start(port);
+
+
+// export const graphqlHandler =  apolloServer().then(x => x.createHandler())

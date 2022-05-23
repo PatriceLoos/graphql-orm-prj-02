@@ -1,0 +1,24 @@
+service: demo-lambda-graphql-typeorm
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-west-2
+functions:
+  graphql:
+    handler: src/app.graphqlHandler
+    events:
+      - http:
+          path: graphql
+          method: post
+          cors: true
+      - http:
+          path: graphql
+          method: get
+          cors: true
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-webpack
+  - serverless-offline
+custom:
+  webpack:
+    includeModules: true

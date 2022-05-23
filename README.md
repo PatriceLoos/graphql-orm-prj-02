@@ -153,3 +153,5 @@ The list bellow features the environment variables defined in the application. A
 ## Author
 👨‍💻 Felipe Belinassi  
 📫 Reach me at my [email](mailto:felipebelinassi@gmail.com) or [LinkedIn](https://www.linkedin.com/in/felipe-belinassi/).
+
+

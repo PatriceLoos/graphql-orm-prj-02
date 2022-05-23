@@ -6,7 +6,15 @@ run migration
 
 npm run typeorm migration:run -- 
 
+// to serverless
+npm install --save apollo-server-lambda graphql
+npm install -g serverless
+npm install --save-dev serverless-webpack webpack webpack-node-externals ts-loader
 
+// deploy to aws lambda
+
+// deploy serverless locally:
+serverless offline start
 
 
 Lendis Tech Test (via Calendly) <notifications@calendly.com>
