@@ -10,8 +10,11 @@ npm run typeorm migration:run --
 npm install --save apollo-server-lambda graphql
 npm install -g serverless
 npm install --save-dev serverless-webpack webpack webpack-node-externals ts-loader
+npm install --save-dev serverless-dotenv-plugin
+ npm install --save-dev serverless-offline
 
 // deploy to aws lambda
+serverless deploy --stage prod
 
 // deploy serverless locally:
 serverless offline start

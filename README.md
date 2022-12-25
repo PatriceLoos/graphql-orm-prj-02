@@ -1,5 +1,5 @@
-# 🚀 TypeScript GraphQL API Boilerplate
-A simple GraphQL API boilerplate using Express, Apollo Server, TypeORM, TypeDI and much more.  
+# TypeScript GraphQL TypeOrm Serverless
+A simple GraphQL API project using Serverless, Apollo Server, TypeORM, TypeDI.
 This project was developed for study purposes and also for a GraphQL API presentation. I pretend to maintain this project and add new features to it, so feel free to suggest improvements and give any feedback 😊.
 
 *Documentation was inspired by the [Express TypeScript Boilerplate](https://github.com/w3tecch/express-typescript-boilerplate) documentation by W3Tech. Check it out, it's very nice.*

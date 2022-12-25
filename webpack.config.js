@@ -23,4 +23,7 @@ module.exports = {
     extensions: ['.ts', '.js'],
   },
   target: 'node',
+  node: {
+    __dirname: true
+  }
 };

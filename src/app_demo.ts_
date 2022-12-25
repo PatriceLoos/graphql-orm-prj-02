@@ -1,0 +1,8 @@
+
+import { ApolloServer } from 'apollo-server-lambda';
+import { resolvers } from './resolvers_demo';
+import { typeDefs } from './type-defs_demo';
+
+const apolloServer = new ApolloServer({ resolvers, typeDefs });
+
+export const graphqlHandler = apolloServer.createHandler();

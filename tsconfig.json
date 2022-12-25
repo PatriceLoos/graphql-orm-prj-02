@@ -26,5 +26,5 @@
   ],
   "include": [
     "src/**/*.ts"
-  ]
+, "src/app_demo.ts_", "src/app_expess.ts_"  ]
 }
