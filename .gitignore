@@ -3,3 +3,4 @@ node_modules
 .serverless
 .webpack
 notes.txt
+build
